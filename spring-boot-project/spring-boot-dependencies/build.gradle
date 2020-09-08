@@ -102,7 +102,7 @@ bom {
 			]
 		}
 	}
-	library("AssertJ", "3.16.1") {
+	library("AssertJ", "3.17.2") {
 		group("org.assertj") {
 			modules = [
 				"assertj-core"
@@ -1344,7 +1344,7 @@ bom {
 			]
 		}
 	}
-	library("RSocket", "1.1.0-M1") {
+	library("RSocket", "1.1.0-SNAPSHOT") {
 		group("io.rsocket") {
 			imports = [
 				"rsocket-bom"
@@ -1547,7 +1547,7 @@ bom {
 			]
 		}
 	}
-	library("Spring Batch", "4.3.0-M2") {
+	library("Spring Batch", "4.3.0-SNAPSHOT") {
 		group("org.springframework.batch") {
 			modules = [
 				"spring-batch-core",
@@ -1557,7 +1557,7 @@ bom {
 			]
 		}
 	}
-	library("Spring Data Bom", "2020.0.0-M2") {
+	library("Spring Data Bom", "2020.0.0-SNAPSHOT") {
 		group("org.springframework.data") {
 			imports = [
 				"spring-data-bom"
@@ -1630,7 +1630,7 @@ bom {
 			]
 		}
 	}
-	library("Spring Session Bom", "2020.0.0-M1") {
+	library("Spring Session Bom", "2020.0.0-SNAPSHOT") {
 		group("org.springframework.session") {
 			imports = [
 				"spring-session-bom"
