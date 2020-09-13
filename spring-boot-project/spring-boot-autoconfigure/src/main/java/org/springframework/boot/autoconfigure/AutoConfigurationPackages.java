@@ -108,6 +108,7 @@ public abstract class AutoConfigurationPackages {
 
 		@Override
 		public void registerBeanDefinitions(AnnotationMetadata metadata, BeanDefinitionRegistry registry) {
+			//默认将会扫描@SpringBootApplication标注的主配置类所在的包及其子包下所有组件
 			register(registry, new PackageImports(metadata).getPackageNames().toArray(new String[0]));
 		}
 
